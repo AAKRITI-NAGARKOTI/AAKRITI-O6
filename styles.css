@@ -1,10 +1,67 @@
 *{
   margin: 0px;
-  background-color: BLACK;
-  color: LIGHTYELLOW ;
-  
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
 }
-h1{
+body{
+  background: black;
+  color: white;
+}
+body{
+  width: 100%;
+  height:100vh;
+  background-image: url(laptopp.PNG);
+  background-position: center;
+  background-size: cover;
+}
+nav{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:10px ;
+}
+.logo{
+  cursor: pointer;
+  filter: drop-shadow(5px 5px 20px darkred);
+  padding:10px;
+  margin:10px;
+  border-radius: 1000px;
+  height:80px;
+  width:100px;
+}
+.logo:hover{
+  cursor: pointer;
+  filter: drop-shadow(3px 3px 20px red);
+}
+nav button{
+  border-color: red;
+  background-color: darkred;
+  padding:10px;
+  font-size: 15px;
+  font-weight: bolder;
+  border-radius: 8px;
+  margin-right: 27px;
+  margin-left:17px;
+  margin-top: 0px;
+  cursor:pointer;
+  filter: drop-shadow(1px 1px 20px red);
+}
+nav button:hover{
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+  border: 1px darkred solid;
+}
+button{
+  text-decoration: none;
+  color:black;
+}
+.headercontent{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  margin-top:150px;
+  margin-left: 150px;
   text-align: center;
-  
+  color:red;
 }
